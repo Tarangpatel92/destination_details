@@ -1,0 +1,402 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "name": "Delhi",
+      "images": [
+        "/image/img11.png",
+        "/image/img22.jpg",
+        "/image/img33.jpg"
+      ],
+      "activities":{
+            "historicalLandmarks": [
+                {
+                    "name": "Red Fort",
+                    "description": "A UNESCO World Heritage Site, this iconic fort showcases Mughal architecture and offers insights into India's history.",
+                    "image": "https://example.com/red-fort.jpg",
+                    "rating": 4.7
+                },
+                {
+                    "name": "Qutub Minar",
+                    "description": "Standing at 73 meters, this minaret is adorned with intricate carvings and inscriptions.",
+                    "image": "https://example.com/qutub-minar.jpg",
+                    "rating": 4.6
+                },
+                {
+                    "name": "Humayun's Tomb",
+                    "description": "An architectural precursor to the Taj Mahal, this tomb is set amidst lush gardens.",
+                    "image": "https://example.com/humayun-tomb.jpg",
+                    "rating": 4.8
+                }
+            ],
+            "culturalExperiences": [
+                {
+                    "name": "Swaminarayan Akshardham",
+                    "description": "This temple complex displays traditional Indian art, architecture, and spirituality.",
+                    "image": "https://example.com/akshardham.jpg",
+                    "rating": 4.9
+                },
+                {
+                    "name": "India Gate",
+                    "description": "A war memorial honoring Indian soldiers, surrounded by expansive lawns ideal for evening strolls.",
+                    "image": "https://example.com/india-gate.jpg",
+                    "rating": 4.8
+                },
+                {
+                    "name": "Lotus Temple",
+                    "description": "Known for its distinctive lotus-shaped design, this Bahá'í House of Worship welcomes visitors of all faiths.",
+                    "image": "https://example.com/lotus-temple.jpg",
+                    "rating": 4.7
+                }
+            ],
+            "bustlingMarkets": [
+                {
+                    "name": "Chandni Chowk",
+                    "description": "Experience the vibrant street food scene and shop for textiles, jewelry, and electronics in one of Delhi's oldest markets.",
+                    "image": "https://example.com/chandni-chowk.jpg",
+                    "rating": 4.5
+                },
+                {
+                    "name": "Dilli Haat",
+                    "description": "A cultural hub offering handicrafts, art, and cuisines from various Indian states.",
+                    "image": "https://example.com/dilli-haat.jpg",
+                    "rating": 4.4
+                },
+                {
+                    "name": "Sarojini Nagar Market",
+                    "description": "Popular for affordable fashion & trendy clothes.",
+                    "image": "https://example.com/sarojini-nagar.jpg",
+                    "rating": 4.3
+                },
+                {
+                    "name": "Connaught Place",
+                    "description": "A blend of modern shopping, cafes, and colonial architecture.",
+                    "image": "https://example.com/connaught-place.jpg",
+                    "rating": 4.6
+                }
+            ],
+            "parksAndGardens": [
+                {
+                    "name": "Lodhi Gardens",
+                    "description": "A city park spanning over 90 acres, housing the tombs of Sayyid ruler Mohammed Shah and Lodhi King Sikandar Lodhi.",
+                    "image": "https://example.com/lodhi-gardens.jpg",
+                    "rating": 4.7
+                },
+                {
+                    "name": "Sunder Nursery",
+                    "description": "Adjacent to Humayun's Tomb, this heritage park features restored monuments, biodiversity zones, and water features.",
+                    "image": "https://example.com/sunder-nursery.jpg",
+                    "rating": 4.6
+                }
+            ],
+            "museumsAndGalleries": [
+                {
+                    "name": "National Museum",
+                    "description": "Explore artifacts spanning 5,000 years of Indian history, including sculptures, manuscripts, and decorative arts.",
+                    "image": "https://example.com/national-museum.jpg",
+                    "rating": 4.5
+                },
+                {
+                    "name": "National Gallery of Modern Art",
+                    "description": "Showcasing contemporary Indian art, this gallery hosts works from renowned artists.",
+                    "image": "https://example.com/ngma.jpg",
+                    "rating": 4.6
+                }
+            ],
+            "culinaryDelights": [
+                {
+                    "name": "Paranthe Wali Gali",
+                    "description": "Located in Chandni Chowk, this lane is famous for its variety of stuffed parathas.",
+                    "image": "https://example.com/paranthe-wali-gali.jpg",
+                    "rating": 4.3
+                },
+                {
+                    "name": "Karim's",
+                    "description": "Established in 1913 near Jama Masjid, it's renowned for Mughlai cuisine, especially kebabs and biryanis.",
+                    "image": "https://example.com/karims.jpg",
+                    "rating": 4.7
+                }
+            ],
+            "uniqueExperiences": [
+                {
+                    "name": "Rickshaw Ride in Old Delhi",
+                    "description": "Navigate the narrow lanes of Old Delhi on a rickshaw, immersing yourself in the area's rich history and bustling atmosphere.",
+                    "image": "https://example.com/rickshaw-ride.jpg",
+                    "rating": 4.5
+                },
+                {
+                    "name": "Lodhi Art District",
+                    "description": "Explore India's first open-air public art district, featuring murals and street art by Indian and international artists.",
+                    "image": "https://example.com/lodhi-art.jpg",
+                    "rating": 4.6
+                }
+            ]
+        },
+      "itinerary": [
+       {
+                    "day": "Day 1",
+                    "title": "Exploring Old Delhi & Mughal Heritage",
+                    "activities": [
+                        {
+                            "time": "Morning",
+                            "places": [
+                                { "name": "Red Fort", "description": "A UNESCO Heritage Site with grand Mughal architecture.", "image": "https://example.com/red-fort.jpg", "rating": 4.5 },
+                                { "name": "Jama Masjid", "description": "One of the largest mosques in India.", "image": "https://example.com/jama-masjid.jpg", "rating": 4.6 },
+                                { "name": "Chandni Chowk", "description": "Famous for street food like parathas, kebabs, and jalebis.", "image": "https://example.com/chandni-chowk.jpg", "rating": 4.4 }
+                            ]
+                        },
+                        {
+                            "time": "Afternoon",
+                            "places": [
+                                { "name": "Raj Ghat", "description": "Mahatma Gandhi’s memorial.", "image": "https://example.com/raj-ghat.jpg", "rating": 4.3 },
+                                { "name": "Humayun’s Tomb", "description": "A Mughal-era tomb and precursor to the Taj Mahal.", "image": "https://example.com/humayun-tomb.jpg", "rating": 4.7 },
+                                { "name": "Karim’s", "description": "Iconic Mughlai restaurant near Jama Masjid.", "image": "https://example.com/karims.jpg", "rating": 4.5 }
+                            ]
+                        },
+                        {
+                            "time": "Evening",
+                            "places": [
+                                { "name": "India Gate", "description": "An illuminated war memorial.", "image": "https://example.com/india-gate.jpg", "rating": 4.8 },
+                                { "name": "Connaught Place", "description": "A hub for shopping, cafés, and nightlife.", "image": "https://example.com/connaught-place.jpg", "rating": 4.6 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "day": "Day 2",
+                    "title": "New Delhi & Cultural Immersion",
+                    "activities": [
+                        {
+                            "time": "Morning",
+                            "places": [
+                                { "name": "Qutub Minar", "description": "Tallest brick minaret in the world.", "image": "https://example.com/qutub-minar.jpg", "rating": 4.7 },
+                                { "name": "Lotus Temple", "description": "A serene Bahá'í House of Worship.", "image": "https://example.com/lotus-temple.jpg", "rating": 4.5 },
+                                { "name": "ISKCON Temple", "description": "Spiritual chanting & Bhagavad Gita exhibitions.", "image": "https://example.com/iskcon-temple.jpg", "rating": 4.4 }
+                            ]
+                        },
+                        {
+                            "time": "Afternoon",
+                            "places": [
+                                { "name": "Swaminarayan Akshardham", "description": "A grand temple complex with cultural exhibitions.", "image": "https://example.com/akshardham.jpg", "rating": 4.9 },
+                                { "name": "Dilli Haat", "description": "Market with handicrafts and food from Indian states.", "image": "https://example.com/dilli-haat.jpg", "rating": 4.3 }
+                            ]
+                        },
+                        {
+                            "time": "Evening",
+                            "places": [
+                                { "name": "Hauz Khas Village", "description": "Trendy cafes, art galleries, and scenic lake views.", "image": "https://example.com/hauz-khas.jpg", "rating": 4.5 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "day": "Day 3",
+                    "title": "Shopping & Modern Delhi",
+                    "activities": [
+                        {
+                            "time": "Morning",
+                            "places": [
+                                { "name": "Sarojini Nagar Market", "description": "Affordable fashion shopping.", "image": "https://example.com/sarojini-nagar.jpg", "rating": 4.2 },
+                                { "name": "Janpath & Tibetan Market", "description": "Handicrafts, jewelry, and souvenirs.", "image": "https://example.com/janpath-market.jpg", "rating": 4.3 }
+                            ]
+                        },
+                        {
+                            "time": "Afternoon",
+                            "places": [
+                                { "name": "Lodhi Art District", "description": "India's first open-air street art gallery.", "image": "https://example.com/lodhi-art.jpg", "rating": 4.6 },
+                                { "name": "Café Lota", "description": "Traditional Indian food with a modern touch.", "image": "https://example.com/cafe-lota.jpg", "rating": 4.4 }
+                            ]
+                        },
+                        {
+                            "time": "Evening",
+                            "places": [
+                                { "name": "Kingdom of Dreams", "description": "Live Bollywood-style cultural performances.", "image": "https://example.com/kingdom-of-dreams.jpg", "rating": 4.8 }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "day": "Day 4",
+                    "title": "Nature & Relaxation",
+                    "activities": [
+                        {
+                            "time": "Morning",
+                            "places": [
+                                { "name": "Lodhi Gardens", "description": "Perfect for a morning walk.", "image": "https://example.com/lodhi-gardens.jpg", "rating": 4.7 },
+                                { "name": "Sunder Nursery", "description": "A heritage park with biodiversity.", "image": "https://example.com/sunder-nursery.jpg", "rating": 4.5 }
+                            ]
+                        },
+                        {
+                            "time": "Afternoon",
+                            "places": [
+                                { "name": "National Museum", "description": "5,000 years of Indian history.", "image": "https://example.com/national-museum.jpg", "rating": 4.6 },
+                                { "name": "Andhra Bhavan", "description": "Famous for South Indian thalis.", "image": "https://example.com/andhra-bhavan.jpg", "rating": 4.4 }
+                            ]
+                        },
+                        {
+                            "time": "Evening",
+                            "places": [
+                                { "name": "Waste to Wonder Park", "description": "Mini replicas of world monuments made from scrap.", "image": "https://example.com/waste-to-wonder.jpg", "rating": 4.7 },
+                                { "name": "Rooftop Dining", "description": "Dinner at Q’la or Dramz with a city view.", "image": "https://example.com/rooftop-dining.jpg", "rating": 4.8 }
+                            ]
+                        }
+                    ]
+                }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Gujarat",
+      "images": [
+        "/image/gujarat1.jpg",
+        "/image/gujarat2.jpg"
+      ],
+      "activities": {
+        "historicalLandmarks": [
+      {
+        "name": "Rani ki Vav",
+        "description": "A UNESCO-listed stepwell in Patan, renowned for its intricate carvings and architectural grandeur.",
+        "image": "https://example.com/rani-ki-vav.jpg",
+        "rating": 4.8
+      },
+      {
+        "name": "Laxmi Vilas Palace",
+        "description": "An opulent 19th-century palace in Vadodara, four times the size of Buckingham Palace.",
+        "image": "https://example.com/laxmi-vilas-palace.jpg",
+        "rating": 4.7
+      }
+    ],
+    "culturalExperiences": [
+      {
+        "name": "Sabarmati Ashram",
+        "description": "The former residence of Mahatma Gandhi, offering insight into India's freedom movement.",
+        "image": "https://example.com/sabarmati-ashram.jpg",
+        "rating": 4.9
+      },
+      {
+        "name": "Modhera Sun Temple",
+        "description": "An 11th-century temple dedicated to the Sun God, showcasing magnificent architecture.",
+        "image": "https://example.com/modhera-sun-temple.jpg",
+        "rating": 4.8
+      }
+    ],
+    "bustlingMarkets": [
+      {
+        "name": "Law Garden Night Market",
+        "description": "A vibrant market in Ahmedabad known for traditional Gujarati handicrafts and street food.",
+        "image": "https://example.com/law-garden.jpg",
+        "rating": 4.5
+      },
+      {
+        "name": "Bhuj Haat",
+        "description": "A local market in Bhuj offering Kutchi embroidery, leather crafts, and silver jewelry.",
+        "image": "https://example.com/bhuj-haat.jpg",
+        "rating": 4.6
+      }
+    ],
+    "parksAndGardens": [
+      {
+        "name": "Gir National Park",
+        "description": "Home to the Asiatic lion, offering thrilling wildlife safaris.",
+        "image": "https://example.com/gir-national-park.jpg",
+        "rating": 4.9
+      },
+      {
+        "name": "Kevadia Jungle Safari",
+        "description": "A scenic park near the Statue of Unity, home to diverse wildlife and adventure activities.",
+        "image": "https://example.com/kevadiya-jungle.jpg",
+        "rating": 4.7
+      }
+    ],
+    "museumsAndGalleries": [
+      {
+        "name": "Kite Museum",
+        "description": "A unique museum in Ahmedabad dedicated to the art of kite flying.",
+        "image": "https://example.com/kite-museum.jpg",
+        "rating": 4.4
+      },
+      {
+        "name": "Maharaja Fateh Singh Museum",
+        "description": "Showcasing European and Indian artworks from the royal collection of Vadodara.",
+        "image": "https://example.com/fateh-singh-museum.jpg",
+        "rating": 4.5
+      }
+    ],
+    "culinaryDelights": [
+      {
+        "name": "Manek Chowk",
+        "description": "A bustling night food market in Ahmedabad famous for street snacks like pav bhaji and dosa.",
+        "image": "https://example.com/manek-chowk.jpg",
+        "rating": 4.6
+      },
+      {
+        "name": "Sasuma Gujarati Thali",
+        "description": "A renowned restaurant serving an authentic Gujarati thali experience.",
+        "image": "https://example.com/sasuma-thali.jpg",
+        "rating": 4.7
+      }
+    ],
+    "uniqueExperiences": [
+      {
+        "name": "Statue of Unity",
+        "description": "The world's tallest statue, dedicated to Sardar Patel, offering panoramic views and exhibitions.",
+        "image": "https://example.com/statue-of-unity.jpg",
+        "rating": 5.0
+      },
+      {
+        "name": "Rann Utsav",
+        "description": "An annual festival celebrating the beauty of the White Rann with cultural performances and tent stays.",
+        "image": "https://example.com/rann-utsav.jpg",
+        "rating": 4.9
+      }
+    ]
+      },
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Exploring Gujarat's Heritage",
+          "activities": [
+            {
+              "time": "Morning",
+              "places": [
+                { "name": "Somnath Temple", "description": "A sacred temple by the sea.", "image": "https://example.com/somnath.jpg", "rating": 4.9 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mumbai",
+      "images": [
+        "/image/mumbai1.jpg",
+        "/image/mumbai2.jpg"
+      ],
+      "activities": {
+        "historicalLandmarks": [
+          {
+            "name": "Gateway of India",
+            "description": "An iconic arch monument built during the 20th century.",
+            "image": "https://example.com/gateway-of-india.jpg",
+            "rating": 4.8
+          }
+        ]
+      },
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Exploring Mumbai",
+          "activities": [
+            {
+              "time": "Morning",
+              "places": [
+                { "name": "Gateway of India", "description": "A popular tourist attraction.", "image": "https://example.com/gateway-of-india.jpg", "rating": 4.8 }
+              ]
+            }
+          ]
+        }
+      ]
+    
+  ]
+}
